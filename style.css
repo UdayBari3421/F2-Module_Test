@@ -371,8 +371,12 @@ button {
 }
 
 #menuBtn {
+    outline: none;
+    border: none;
+    background: none;
     font-size: 20px;
     cursor: pointer;
+    padding: 18px;
 }
 
 body::before {
@@ -391,9 +395,8 @@ body::before {
     opacity: 1;
 }
 
-/* Style for the side navigation menu */
 .sidenav {
-    gap: 20px;
+    gap: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,13 +425,24 @@ body::before {
     justify-content: space-between;
 }
 
+.col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    width: 100%;
+}
+
 #close {
-    height: 80px;
-    width: 15%;
-    color: white;
+    font-size: 30px;
+    height: 46px;
+    width: 46px;
+    color: black;
     border: none;
     border-radius: 50%;
-    background-color: #dc582a;
+    background-color: #ffffff;
 }
 
 .sidenav a {
